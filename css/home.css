@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#home-bg{
+    background: url(../img/background.png) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+}
+
+#nav{
+    padding-top: 3vh;
+}
+
+#nav img{
+    display: inline-block;
+    height: 45px;
+    width: 150px;
+    margin-left: 43vw;
+}
+
+#nav a{
+    display: inline-block;
+    background-color: rgb(255,0,0);
+    color: white;
+    text-decoration: none;
+    margin-left: 35vw;
+    padding: 5px 20px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 1vh;
+    border-radius: 3px;
+}
+
+#nav a:hover{
+    background-color: rgba(255,0,0, 0.9);
+}
+
+#trial{
+    color: white;
+    margin: 25vh 25vw;
+    text-align: center;
+    line-height: 85px;
+}
+
+#trial h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#trial h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+
+#trial a{
+    background-color: rgb(255, 0, 0);
+    padding: 20px 50px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#trial a:hover{
+    background-color: rgba(255,0,0, 0.9);
+}
